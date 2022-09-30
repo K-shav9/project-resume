@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Kumar - Project Resume</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .container{
+            display:grid;
+            grid-template-areas:
+            "profile main main"
+            "contact main main"
+            "contact main main"
+            ;
+            width:900px;
+            margin:0 auto;
+        }
+
+        .profile{
+            width:300px;
+            background-color: aqua;
+            grid-area: profile;
+            text-align: center;
+            padding:20px 0 30px 0;
+        }
+
+        .profile img{
+            width:200px;
+            height:200px;
+            display: block;
+            margin:20px auto;
+            border-radius: 50%;
+        }
+
+        .main{
+            grid-area: main;
+        }
+
+        .main p {
+            text-align: justify;
+        }
+
+        .contact{
+            width:300px;
+            grid-area:contact;
+            background-color: rgb(46, 45, 45);
+            color:white;
+            padding:30px 20px;
+        }
+
+        .contact h2{
+            margin:10px 0;
+        }
+
+        .contact .cards{
+            margin:20px 0;
+        }
+
+        .contact .cards .card{
+            margin:15px 0;
+        }
+
+        .contact ul{
+            margin:20px;
+        }
+
+        .contact h4,
+        .contact p,
+        .contact li{
+            margin:5px 0;
+        }
+
+        .main{
+            padding:30px;
+        }
+
+        .main h2{
+            margin:25px 0 5px 0;
+        }
+
+        .main hr{
+            margin:5px 0 15px 0;
+        }
+
+        .main p{
+            margin:8px 0;
+        }
+
+     
+
+        .main .cards .card{
+            margin:20px 0;
+        }
+
+        .main .top{
+            display: flex;
+            justify-content: space-between;
+            margin:5px 0 ;
+        }
+
+        .main .gridit{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding:10px 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="./doctor-strange-poster000-min.jpg" alt="">
+            <h1>Doctor Strange</h1>
+            <p>Magician</p>
+        </div>
+
+        <div class="contact">
+            <div>
+                <h2>CONTACT</h2>
+                <hr>
+                <div class="cards">
+                    <div class="card">
+                        <h4>Phone</h4>
+                        <p>123-456-7890</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>Email</h4>
+                        <p>keshav@gmail.com</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>Address</h4>
+                        <p>
+                            House No.123, Shimlapuri
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2>EDUCATION</h2>
+                <hr>
+                <div class="cards">
+                    <div class="card">
+                        <h4>2005 - 2009</h4>
+                        <h4>Bachelor of Design</h4>
+                        <p>Fauget University</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>2005 - 2009</h4>
+                        <h4>Bachelor of Design</h4>
+                        <p>Fauget University</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="language">
+                <h2>Languages</h2>
+                <hr>
+                <ul>
+                    <li>English</li>
+                    <li>Spanish</li>
+                    <li>Indonesia</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <div>
+                <h2>PROFILE INFO</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur doloribus deserunt obcaecati molestiae nobis est odio facere error incidunt id ea, aliquid sed corrupti provident quod ipsa excepturi! Vel, voluptatibus? Possimus mollitia repudiandae iure maxime magni ea odio numquam veritatis! Ut in ullam ab maiores.</p>
+            </div>
+
+            <div>
+                <h2>WORK EXPERIENCE</h2>
+                <hr>
+                <div class="cards">
+                    <div class="card">
+                        <div class="top">
+                            <h4>Junior Graphic Designer</h4>
+                            <h4>2012 - 2016</h4>
+                        </div>
+                        <h4>Borcelle Studios</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod officiis laboriosam molestias nobis odio earum? Debitis, repellendus hic voluptatem impedit aut inventore expedita, modi mollitia nisi quo quia libero iusto magni earum, dolorum corporis reiciendis vero veritatis ad et?</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="top">
+                            <h4>Junior Graphic Designer</h4>
+                            <h4>2012 - 2016</h4>
+                        </div>
+                        <h4>Borcelle Studios</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod officiis laboriosam molestias nobis odio earum? Debitis, repellendus hic voluptatem impedit aut inventore expedita, modi mollitia nisi quo quia libero iusto magni earum, dolorum corporis reiciendis vero veritatis ad et?</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="top">
+                            <h4>Junior Graphic Designer</h4>
+                            <h4>2012 - 2016</h4>
+                        </div>
+                        <h4>Borcelle Studios</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod officiis laboriosam molestias nobis odio earum? Debitis, repellendus hic voluptatem impedit aut inventore expedita, modi mollitia nisi quo quia libero iusto magni earum, dolorum corporis reiciendis vero veritatis ad et?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2>MY SKILLS & EXPERTISE</h2>
+                <hr>
+                <div class="gridit">
+                    <div class="left">
+                        <ul>
+                            <li>Graphic Design</li>
+                            <li>Web Design</li>
+                            <li>Video Editing</li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li>Branding</li>
+                            <li>Photography</li>
+                            <li>SEO & Marketing</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div>
+                <h2>MY REFERENCE</h2>
+                <hr>
+                <div class="gridit">
+                    <div class="left">
+                        <h4>Harumi Kobayashi</h4>
+                        <p>Wardiere Inc. / CEO</p>
+                        <p>123-456-7890</p>
+                    </div>
+                    <div class="right">
+                        <h4>Harumi Kobayashi</h4>
+                        <p>Wardiere Inc. / CEO</p>
+                        <p>123-456-7890</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
